@@ -21,7 +21,7 @@
           <td id="favorite_buttons_<%= @book.id %>">
             <%= render 'favorites/favorite', book: @book %>
           </td>
-          <!--「コメント数」部分テンプレート -->
+          <!--「コメント数」部分テンプレート箇所 -->
           <td class="book-comments-counter">
             <%= render 'book_comments/counter', book: @book %>
           </td>
@@ -35,7 +35,7 @@
   <div class="book_comment_area">
      <%= render 'book_comments/book_comment', book: @book %>
  </div>
-  <!--コメントフォーム-->
+  <!--「コメントフォーム」部分テンプレート箇所-->
     <%= render 'book_comments/form_comment', book: @book, book_comment: @book_comment %>
     </div>
   </div>
